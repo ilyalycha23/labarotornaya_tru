@@ -8,3 +8,7 @@ C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\ob
 C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.csproj.CoreCompileInputs.cache
 C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.exe
 C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.pdb
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.csproj.CopyComplete
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.Form1.resources

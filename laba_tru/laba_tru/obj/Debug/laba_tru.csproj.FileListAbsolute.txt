@@ -1,0 +1,10 @@
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\laba_tru.exe.config
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\laba_tru.exe
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\laba_tru.pdb
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.csproj.AssemblyReference.cache
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.Lavreshin.Main.resources
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.Properties.Resources.resources
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.csproj.GenerateResource.cache
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.csproj.CoreCompileInputs.cache
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.exe
+C:\Users\ilyalycha\Desktop\laboratornaya3\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.pdb

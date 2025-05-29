@@ -23,16 +23,18 @@ namespace laba_tru.Lavreshin
             SetupChart();
         }
 
-        // Настройка внешнего вида графика
-        private void SetupChart()
+        
+        private void SetupChart() // Настройка внешнего вида графика
         {
             chartPrices.Series.Clear();
             chartPrices.ChartAreas[0].AxisX.Title = "Год";
             chartPrices.ChartAreas[0].AxisY.Title = "Цена (млн руб.)";
             chartPrices.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.LightGray;
             chartPrices.Legends[0].Docking = Docking.Bottom;
+
+            chartPrices.Legends[0].Enabled = false;
         }
-        private void btnLoadData_Click(object sender, EventArgs e)
+        private void btnLoadData_Click(object sender, EventArgs e) // Загрузка данных из JSON
         {
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "JSON files (*.json)|*.json";
@@ -53,7 +55,7 @@ namespace laba_tru.Lavreshin
                 }
             }
         }
-        private void UpdateDataGrid()
+        private void UpdateDataGrid() // Заполнение таблицы
         {
             dataGridPrices.AutoGenerateColumns = false;
             dataGridPrices.Columns.Clear();
@@ -81,8 +83,8 @@ namespace laba_tru.Lavreshin
 
             dataGridPrices.DataSource = prices;
         }
-        // Обновление графика
-        private void UpdateChart()
+
+        private void UpdateChart() // Обновление графика
         {
             if (prices == null || prices.Count == 0) return;
 
@@ -120,8 +122,7 @@ namespace laba_tru.Lavreshin
             chartPrices.Series.Add(series);
         }
 
-        // Расчет статистики
-        private void CalculateStats()
+        private void CalculateStats() // Расчет статистики
         {
             if (prices.Count < 2) return;
 
@@ -140,7 +141,7 @@ namespace laba_tru.Lavreshin
                 oneRoomChange, twoRoomChange, threeRoomChange);
         }
 
-        private void btnForecast_Click(object sender, EventArgs e)
+        private void btnForecast_Click(object sender, EventArgs e) // Расчет прогноза
         {
             if (!int.TryParse(txtForecastYears.Text, out int years) || years <= 0)
             {
@@ -151,55 +152,94 @@ namespace laba_tru.Lavreshin
             string selectedType = comboBoxApartment.SelectedItem?.ToString() ?? "1-комн.";
             AddForecastToChart(selectedType, years);
         }
-        private void AddForecastToChart(string apartmentType, int forecastYears)
+        private void AddForecastToChart(string apartmentType, int forecastYears) // Добавление прогноза на график
         {
-            List<double> historicalData;
-            switch (apartmentType)
+            // Удаление старого прогноза
+            if (chartPrices.Series.Any(s => s.Name == "Прогноз"))
             {
-                case "1-комн.":
-                    historicalData = prices.Select(p => p.OneRoomPrice).ToList();
-                    break;
-                case "2-комн.":
-                    historicalData = prices.Select(p => p.TwoRoomPrice).ToList();
-                    break;
-                case "3-комн.":
-                    historicalData = prices.Select(p => p.ThreeRoomPrice).ToList();
-                    break;
-                default:
-                    historicalData = new List<double>();
-                    break;
+                chartPrices.Series.Remove(chartPrices.Series["Прогноз"]);
             }
 
-            List<double> forecast = new List<double>();
-            int windowSize = 3;
+            // Получаем данные
+            List<double> historicalData = new List<double>();
+            List<int> years = new List<int>();
 
-            for (int i = 0; i < forecastYears; i++)
+            foreach (var price in prices)
             {
-                double sum = 0;
-                int count = 0;
-                for (int j = historicalData.Count - windowSize; j < historicalData.Count; j++)
+                years.Add(price.Year);
+                switch (apartmentType)
                 {
-                    if (j >= 0)
+                    case "1-комн.": historicalData.Add(price.OneRoomPrice); break;
+                    case "2-комн.": historicalData.Add(price.TwoRoomPrice); break;
+                    case "3-комн.": historicalData.Add(price.ThreeRoomPrice); break;
+                }
+            }
+
+            // Рассчет линейного тренда (y = a*x + b)
+            double xAvg = years.Average();
+            double yAvg = historicalData.Average();
+
+            double numerator = 0;
+            double denominator = 0;
+
+            for (int i = 0; i < years.Count; i++)
+            {
+                numerator += (years[i] - xAvg) * (historicalData[i] - yAvg);
+                denominator += Math.Pow(years[i] - xAvg, 2);
+            }
+
+            double a = numerator / denominator; // Коэффициент наклона
+            double b = yAvg - a * xAvg;       // Свободный член
+
+            // Прогноз на основе тренда + последних колебаний
+            List<double> forecast = new List<double>();
+            int lastYear = years.Last();
+            double lastValue = historicalData.Last();
+            double windowSize = 3;
+
+            // Коэффициент влияния колебаний (0.3 = 30% влияния последних изменений)
+            double fluctuationFactor = 0.3;
+
+            for (int i = 1; i <= forecastYears; i++)
+            {
+                // Базовое значение по тренду
+                double trendValue = a * (lastYear + i) + b;
+
+                // Корректировка на основе последних колебаний
+                double fluctuation = 0;
+                int count = 0;
+
+                for (int j = historicalData.Count - (int)windowSize; j < historicalData.Count; j++)
+                {
+                    if (j >= 1)
                     {
-                        sum += historicalData[j];
+                        fluctuation += historicalData[j] - historicalData[j - 1];
                         count++;
                     }
                 }
-                forecast.Add(sum / count);
-                historicalData.Add(sum / count);
+
+                if (count > 0)
+                {
+                    fluctuation /= count;
+                }
+
+                // Комбинированный прогноз
+                double predictedValue = trendValue + fluctuationFactor * fluctuation;
+                forecast.Add(predictedValue);
             }
 
+            // Прогноз на график
             var forecastSeries = new Series("Прогноз")
             {
                 ChartType = SeriesChartType.Line,
                 Color = Color.Red,
+                BorderWidth = 2,
                 BorderDashStyle = ChartDashStyle.Dash
             };
 
-            int startYear = prices[prices.Count - 1].Year + 1;
             for (int i = 0; i < forecast.Count; i++)
             {
-                forecastSeries.Points.AddXY(startYear + i, forecast[i]);
+                forecastSeries.Points.AddXY(lastYear + i + 1, forecast[i]);
             }
 
             chartPrices.Series.Add(forecastSeries);

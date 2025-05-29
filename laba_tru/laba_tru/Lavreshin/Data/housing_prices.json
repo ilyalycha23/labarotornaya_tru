@@ -1,0 +1,20 @@
+﻿[
+  {
+    "Year": 2010,
+    "OneRoomPrice": 2.5,
+    "TwoRoomPrice": 3.8,
+    "ThreeRoomPrice": 5.1
+  },
+  {
+    "Year": 2011,
+    "OneRoomPrice": 2.7,
+    "TwoRoomPrice": 4.0,
+    "ThreeRoomPrice": 5.4
+  },
+  {
+    "Year": 2012,
+    "OneRoomPrice": 3.0,
+    "TwoRoomPrice": 4.5,
+    "ThreeRoomPrice": 6.0
+  }
+]

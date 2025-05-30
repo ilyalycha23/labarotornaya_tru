@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|solutionrelative:laba_tru\\sodikov\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|c:\\users\\maxmu\\desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\sodikov\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|C:\\Users\\maxmu\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\sodikov\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|solutionrelative:laba_tru\\sodikov\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|c:\\users\\maxmu\\desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\sodikov\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|C:\\Users\\maxmu\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\sodikov\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|solutionrelative:laba_tru\\sodikov\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|c:\\users\\maxmu\\desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\sodikov\\runningrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|solutionrelative:laba_tru\\sodikov\\runningrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|c:\\users\\maxmu\\desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\sodikov\\running_data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|solutionrelative:laba_tru\\sodikov\\running_data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "running_data.json",
+              "DocumentMoniker": "C:\\Users\\maxmu\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\sodikov\\running_data.json",
+              "RelativeDocumentMoniker": "laba_tru\\sodikov\\running_data.json",
+              "ToolTip": "C:\\Users\\maxmu\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\sodikov\\running_data.json",
+              "RelativeToolTip": "laba_tru\\sodikov\\running_data.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-30T01:33:26.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RunningRecord.cs",
+              "DocumentMoniker": "C:\\Users\\maxmu\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\sodikov\\RunningRecord.cs",
+              "RelativeDocumentMoniker": "laba_tru\\sodikov\\RunningRecord.cs",
+              "ToolTip": "C:\\Users\\maxmu\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\sodikov\\RunningRecord.cs",
+              "RelativeToolTip": "laba_tru\\sodikov\\RunningRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:30:27.777Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -45,7 +79,7 @@
               "RelativeDocumentMoniker": "laba_tru\\sodikov\\Form1.cs",
               "ToolTip": "C:\\Users\\maxmu\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\sodikov\\Form1.cs",
               "RelativeToolTip": "laba_tru\\sodikov\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAuwAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T01:15:13.828Z",
               "EditorCaption": ""

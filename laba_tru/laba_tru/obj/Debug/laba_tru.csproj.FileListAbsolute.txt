@@ -1,0 +1,13 @@
+C:\Users\maxmu\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.csproj.AssemblyReference.cache
+C:\Users\maxmu\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.Properties.Resources.resources
+C:\Users\maxmu\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.sodikov.Form1.resources
+C:\Users\maxmu\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.csproj.GenerateResource.cache
+C:\Users\maxmu\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.csproj.CoreCompileInputs.cache
+C:\Users\maxmu\Desktop\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\laba_tru.exe.config
+C:\Users\maxmu\Desktop\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\laba_tru.exe
+C:\Users\maxmu\Desktop\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\laba_tru.pdb
+C:\Users\maxmu\Desktop\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\Newtonsoft.Json.dll
+C:\Users\maxmu\Desktop\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\Newtonsoft.Json.xml
+C:\Users\maxmu\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.csproj.Up2Date
+C:\Users\maxmu\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.exe
+C:\Users\maxmu\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.pdb

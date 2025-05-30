@@ -1,0 +1,22 @@
+[
+  {
+    "RunDate": "2025-01-01T00:00:00",
+    "StartTime": "08:30:00",
+    "DurationMinutes": 45,
+    "DistanceKm": 8.5,
+    "MaxSpeedKmh": 12.5,
+    "MinSpeedKmh": 8.2,
+    "AvgSpeedKmh": 10.1,
+    "AvgPulseBpm": 145
+  },
+  {
+    "RunDate": "2025-01-02T00:00:00",
+    "StartTime": "09:15:00",
+    "DurationMinutes": 30,
+    "DistanceKm": 5.2,
+    "MaxSpeedKmh": 11.8,
+    "MinSpeedKmh": 7.5,
+    "AvgSpeedKmh": 9.8,
+    "AvgPulseBpm": 138
+  }
+]

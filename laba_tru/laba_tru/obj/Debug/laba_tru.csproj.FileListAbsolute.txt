@@ -1,0 +1,13 @@
+C:\Users\Rostislav\Desktop\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\laba_tru.exe.config
+C:\Users\Rostislav\Desktop\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\laba_tru.exe
+C:\Users\Rostislav\Desktop\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\laba_tru.pdb
+C:\Users\Rostislav\Desktop\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rostislav\Desktop\labarotornaya_tru\laba_tru\laba_tru\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rostislav\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.csproj.AssemblyReference.cache
+C:\Users\Rostislav\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.Pokalo.Form3.resources
+C:\Users\Rostislav\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.Properties.Resources.resources
+C:\Users\Rostislav\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.csproj.GenerateResource.cache
+C:\Users\Rostislav\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.csproj.CoreCompileInputs.cache
+C:\Users\Rostislav\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.csproj.Up2Date
+C:\Users\Rostislav\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.exe
+C:\Users\Rostislav\Desktop\labarotornaya_tru\laba_tru\laba_tru\obj\Debug\laba_tru.pdb

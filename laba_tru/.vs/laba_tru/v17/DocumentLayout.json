@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Rostislav\\Desktop\\labarotornaya_tru\\laba_tru\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|c:\\users\\rostislav\\desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\pokalo\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|C:\\Users\\Rostislav\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\pokalo\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|solutionrelative:laba_tru\\pokalo\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|C:\\Users\\Rostislav\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\pokalo\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|solutionrelative:laba_tru\\pokalo\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|C:\\Users\\Rostislav\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\pokalo\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|solutionrelative:laba_tru\\pokalo\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|C:\\Users\\Rostislav\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\pokalo\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63640EF0-646C-4D2C-9B51-A046EE3B2FF9}|laba_tru\\laba_tru.csproj|solutionrelative:laba_tru\\pokalo\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Rostislav\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\Pokalo\\Class1.cs",
               "RelativeDocumentMoniker": "laba_tru\\Pokalo\\Class1.cs",
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DataLoader.cs",
               "DocumentMoniker": "C:\\Users\\Rostislav\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\Pokalo\\DataLoader.cs",
               "RelativeDocumentMoniker": "laba_tru\\Pokalo\\DataLoader.cs",
@@ -76,12 +76,11 @@
               "RelativeToolTip": "laba_tru\\Pokalo\\DataLoader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T23:17:06.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T23:17:06.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DiseaseData.cs",
               "DocumentMoniker": "C:\\Users\\Rostislav\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\Pokalo\\DiseaseData.cs",
               "RelativeDocumentMoniker": "laba_tru\\Pokalo\\DiseaseData.cs",
@@ -89,12 +88,11 @@
               "RelativeToolTip": "laba_tru\\Pokalo\\DiseaseData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T23:12:33.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T23:12:33.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\Rostislav\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\Pokalo\\Form3.cs",
               "RelativeDocumentMoniker": "laba_tru\\Pokalo\\Form3.cs",
@@ -102,20 +100,18 @@
               "RelativeToolTip": "laba_tru\\Pokalo\\Form3.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAowCcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T22:44:43.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T22:44:43.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\Rostislav\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\Pokalo\\Form3.cs",
               "RelativeDocumentMoniker": "laba_tru\\Pokalo\\Form3.cs",
               "ToolTip": "C:\\Users\\Rostislav\\Desktop\\labarotornaya_tru\\laba_tru\\laba_tru\\Pokalo\\Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "laba_tru\\Pokalo\\Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T20:50:14.732Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-05-29T20:50:14.732Z"
             }
           ]
         }

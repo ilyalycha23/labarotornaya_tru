@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace laba_tru.sodikov
 {
-    public partial class probeshka : Form
+    public partial class Form1 : Form
     {
-        public probeshka()
+        public Form1()
         {
             InitializeComponent();
         }
